@@ -14,7 +14,7 @@
     "watchy": "^0.6.1"
   },
   "peerDependencies": {
-    "eslint": "*"
+    "eslint": ">=0.8.0"
   },
   "scripts": {
     "test": "tape test/*.js | tap-spec",
