@@ -18,16 +18,13 @@
     // Enforce the name 'self' when assigning `this` to a local variable.
     "consistent-this": [0, "self"],
 
-    // Allow braces to be omitted from `if` statements, etc.
-    curly: [0],
-
     // Enforce two-space indentation.
     "indent": [2, 2, {indentSwitchCase: true}],
 
     // Enforce the use of strict mode at the file level.
     "global-strict": [2, "always"],
 
-    // Allow things like `while(true)`.
+    // Allow things like `while (true)`.
     "no-constant-condition": 0,
 
     // Allow variable shadowing.
